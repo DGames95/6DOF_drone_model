@@ -5,7 +5,7 @@ Simple skeleton for building on later.
 import numpy as np
 import matplotlib.pyplot as plt
 from quadcopter_sim_independent import QuadcopterIndependentMotors
-from sysid_pipeline import params, motor_params
+from params import params, motor_params
 
 
 def scenario_hover_simple():

@@ -16,7 +16,7 @@ from scipy.integrate import odeint
 import control as ct
 from pathlib import Path
 
-from sysid_pipeline import params, motor_params
+from params import params, motor_params
 
 
 class QuadcopterIndependentMotors:

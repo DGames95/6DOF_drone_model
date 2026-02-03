@@ -11,7 +11,7 @@ import control as ct
 from pathlib import Path
 
 # Load parameters
-from sysid_pipeline import params
+from params import params
 
 
 class QuadcopterDynamics:

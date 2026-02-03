@@ -24,7 +24,7 @@ import sys
 sys.path.insert(0, '.')
 
 from quadcopter_sim import QuadcopterDynamics, plot_bode_analysis, plot_step_response, plot_pole_zero
-from sysid_pipeline import params
+from params import params
 
 def scenario_hovering():
     """Scenario 1: Hovering with step disturbance"""
